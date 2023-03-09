@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="customItem" extends="group">
+    <script type="text/brightscript" uri="customItem.brs"/>
+    <interface>
+        <!-- poster uri -->
+        <field id="posterUri" type="integer" alias="poster.uri"/>
+        <!-- label text -->
+        <field id="labelText" type="integer" alias="simpleLabel.text"/>
+    </interface>
+    <children>
+        <layoutGroup id="layoutGroup" itemSpacings="[30]" horizAlignment="center">
+            <rectangle
+                id="rectangle"
+                width="398"
+                height="398"
+                color="0xFFFFFF" >
+                <poster
+                    id="poster"
+                    width="368"
+                    height="368"
+                    translation="[15, 15]" />
+            </rectangle>
+            <simpleLabel
+                id="simpleLabel"
+                fontUri="font:BoldSystemFontFile"
+                fontSize="40"/>
+        </layoutGroup>
+    </children>
+</component>

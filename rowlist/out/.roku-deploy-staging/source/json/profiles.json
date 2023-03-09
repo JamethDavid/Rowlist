@@ -1,0 +1,17 @@
+[
+    {
+        "id": "toucanProfile",
+        "name": "Toucan",
+        "imagePath": "pkg:/images/profiles/toucan.jpg"
+    },
+    {
+        "id": "bettaProfile",
+        "name": "Betta Fish",
+        "imagePath": "pkg:/images/profiles/bettafish.jpg"
+    },
+    {
+        "id": "zebraProfile",
+        "name": "Zebra",
+        "imagePath": "pkg:/images/profiles/zebra.jpg"
+    }
+]

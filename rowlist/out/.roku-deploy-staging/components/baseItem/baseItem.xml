@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="baseItem" extends="Group">
+    <script type="text/brightscript" uri="baseItem.brs"/>
+    <interface>
+        <field id="itemContent" type="node" onChange="OnContentChange"/>
+    </interface>
+    <children>
+    <poster id="poster"/>
+    </children>
+</component>

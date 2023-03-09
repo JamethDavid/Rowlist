@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="rowlistScene" extends="Scene">
+ <interface>
+        <field id="routerCallback" type="assocarray" onChange="routingEventCallback" alwaysNotify="true" />
+        <field id="rootScene" type="boolean" />
+    </interface>
+<script type="text/brightscript" uri="rowlistScene.brs"/>
+<script type="text/brightscript" uri="../../source/main.brs"/>
+<children>
+    <simpleLabel id="simpleLabelName" fontSize = "70"/>
+    <rowList id="rowlist"/>
+    <Label id="LabelDescription" width="1000"/>
+</children>
+    
+</component>
